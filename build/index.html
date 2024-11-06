@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>TailwindCSS Convertion</title>
+</head>
+
+<body>
+
+    <header class="px-2.5">
+        <div class="container">
+            <div class="header-con">
+                    <div class="main_logo absolute top-16 z-10">
+                        <a href="#">
+                           <figure><img src="assets/main-logo.png" alt="" class="max-w-[236px]"></figure> 
+                        </a>
+                    </div>
+
+                    <div class="header_info text-parag flex justify-between items-center gap-2 min-h-16  text-white z-1 header:before bg-secColor">
+                        <div class="head_info">
+                            <ul class="flex items-center justify-between gap-5">
+                                <li class="pl-6 relative before:content-headerIcon1 before:absolute before:left-0 ">Phone Number: <a href="tel:12345" class="hover:underline">123-123-123</a> </li>
+                                <li class="pl-10 relative before:content-headerIcon2 before:absolute before:left-0 before:top-1">Email: <a href="mailto:sample@gmail.com" class="hover:underline">sample@gmail.com</a> </li>
+                            </ul>
+                        </div>
+
+                        <div class="social_media">
+
+                            <ul class="flex items-center gap-3.5">
+                                <li class="pr-2.5">Like, Share, or Comment </li>
+                                <li class="hover:opacity-70"><a href="https://www.facebook.com/" target="_blank" ><figure><img src="assets/icons/fb-icon.png" alt=""></figure></a></li>
+                                <li class="hover:opacity-70"><a href="https://x.com/?mx=2" target="_blank"><figure><img src="assets/icons/twitter-icon.png" alt=""></figure></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="bg-white">
+        <div class="container">
+            <div class="nav-con">
+                <ul class="text-right flex space-x-14 justify-end items-center min-h-32">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Medical Services</a></li>
+                    <li><a href="#">Our Doctors</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="hero" class="relative">
+        <div class="container">
+            <div class="hero-con relative min-h-[710px]">
+                <div class="hero-img absolute left-1/2 -translate-x-1/2 w-[1920px] block">
+                        <figure><img src="assets/hero-img.jpg" alt=""></figure>
+                </div>
+
+                <div class="bnr-slogan absolute bottom-0 text-white flex justify-between items-center font-Poppins py-8 gap-2 w-full bnr-slogan:before z-10">
+                    <h2 class="text-heroheading max-w-[490px]">This Awesome <span class="block"> Slogan is Temporary</span> </h2>
+                    <p class="max-w-[521px] text-parag">
+                        Additional business details will be uploaded on this website soon. You are reading dummy text as placeholders for this layout. Dummy text for the reader to review.
+
+                    </p>
+                    <a href="#" class="btn">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
