@@ -656,6 +656,18 @@ body{
   padding: 60px 30px 40px;
 }
 
+main:before{
+  content: "";
+  background: url(../assets/main-overlay.png) no-repeat center / cover;
+  position: absolute;
+  left: 50%;
+  display: block;
+  height: 100%;
+  width: 1920px;
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
 .absolute{
   position: absolute;
 }
@@ -693,6 +705,18 @@ body{
   margin-bottom: 1rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .block{
   display: block;
 }
@@ -713,6 +737,10 @@ body{
   min-height: 488px;
 }
 
+.min-h-\[591px\]{
+  min-height: 591px;
+}
+
 .min-h-\[710px\]{
   min-height: 710px;
 }
@@ -721,12 +749,12 @@ body{
   width: 1920px;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-\[347px\]{
   width: 347px;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-\[236px\]{
@@ -741,8 +769,8 @@ body{
   max-width: 521px;
 }
 
-.max-w-\[347px\]{
-  max-width: 347px;
+.max-w-\[573px\]{
+  max-width: 573px;
 }
 
 .-translate-x-1\/2{
@@ -794,6 +822,22 @@ body{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-main{
+  background-image: url(../assets/main-bg.jpg);
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-left-bottom{
+  background-position: left bottom;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
 .px-2\.5{
   padding-left: 0.625rem;
   padding-right: 0.625rem;
@@ -802,6 +846,11 @@ body{
 .py-24{
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .py-8{
@@ -833,6 +882,10 @@ body{
   font-family: Poppins, sans-serif;
 }
 
+.text-header{
+  font-size: 20px;
+}
+
 .text-heading2{
   font-size: 32px;
   line-height: 100%;
@@ -845,16 +898,27 @@ body{
   font-weight: 600;
 }
 
+.text-mainHeader{
+  font-size: 55px;
+  line-height: 100%;
+  font-weight: 600;
+}
+
 .text-parag{
   font-size: 17px;
 }
 
-.text-header{
-  font-size: 20px;
+.leading-10{
+  line-height: 2.5rem;
 }
 
 .leading-7{
   line-height: 1.75rem;
+}
+
+.text-priColor{
+  --tw-text-opacity: 1;
+  color: rgb(191 0 0 / var(--tw-text-opacity));
 }
 
 .text-white{
