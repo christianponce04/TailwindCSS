@@ -9,6 +9,7 @@ module.exports = {
     colors:{
       'priColor': '#bf0000',
       'secColor': '#161c21',
+      'thirdColor':'#f5f5f5',
       'black':'#000',
       'white':'#fff',
      },
