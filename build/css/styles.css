@@ -648,12 +648,21 @@ body{
 }
 
 .card1{
-  max-width: 432px;
+  max-width: 325px;
+  width: 32%;
+  min-height: 392px;
+  background: #f5f5f5;
+  position: relative;
+  padding: 15px
+}
+
+.card2{
+  max-width: 350px;
   width: 32%;
   min-height: 288px;
   background: #f5f5f5;
   position: relative;
-  padding: 60px 30px 40px;
+  padding: 30px;
 }
 
 main:before{
@@ -705,6 +714,10 @@ main:before{
   margin-bottom: 1rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -745,8 +758,16 @@ main:before{
   min-height: 710px;
 }
 
+.min-h-\[746px\]{
+  min-height: 746px;
+}
+
 .w-\[1920px\]{
   width: 1920px;
+}
+
+.w-\[303px\]{
+  width: 303px;
 }
 
 .w-\[347px\]{
@@ -786,6 +807,10 @@ main:before{
   justify-content: flex-end;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -804,6 +829,10 @@ main:before{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .space-x-14 > :not([hidden]) ~ :not([hidden]){
@@ -848,6 +877,11 @@ main:before{
   padding-bottom: 6rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-40{
   padding-top: 10rem;
   padding-bottom: 10rem;
@@ -856,6 +890,10 @@ main:before{
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 .pl-10{
@@ -870,6 +908,14 @@ main:before{
   padding-right: 0.625rem;
 }
 
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pb-16{
+  padding-bottom: 4rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -880,6 +926,14 @@ main:before{
 
 .font-Poppins{
   font-family: Poppins, sans-serif;
+}
+
+.text-\[25px\]{
+  font-size: 25px;
+}
+
+.text-\[50px\]{
+  font-size: 50px;
 }
 
 .text-header{
@@ -908,12 +962,24 @@ main:before{
   font-size: 17px;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .leading-10{
   line-height: 2.5rem;
 }
 
 .leading-7{
   line-height: 1.75rem;
+}
+
+.leading-\[100\%\]{
+  line-height: 100%;
+}
+
+.leading-\[50px\]{
+  line-height: 50px;
 }
 
 .text-priColor{
