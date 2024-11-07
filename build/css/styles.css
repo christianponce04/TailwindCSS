@@ -819,6 +819,10 @@ main:before{
   gap: 0.25rem;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -829,10 +833,6 @@ main:before{
 
 .gap-5{
   gap: 1.25rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
 }
 
 .space-x-14 > :not([hidden]) ~ :not([hidden]){
@@ -892,8 +892,8 @@ main:before{
   padding-bottom: 2rem;
 }
 
-.pb-20{
-  padding-bottom: 5rem;
+.pb-16{
+  padding-bottom: 4rem;
 }
 
 .pl-10{
@@ -910,10 +910,6 @@ main:before{
 
 .pt-10{
   padding-top: 2.5rem;
-}
-
-.pb-16{
-  padding-bottom: 4rem;
 }
 
 .text-center{
