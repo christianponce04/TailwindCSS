@@ -24,6 +24,7 @@ module.exports = {
 
     backgroundImage:{
       'main':'url(../assets/main-bg.jpg)',
+      'footer-bg':'url(../assets/footer-bg.jpg)',
     },
 
     extend: {
@@ -35,6 +36,9 @@ module.exports = {
     content:{
      headerIcon1:"url(../assets/icons/header-icon1.png)",
      headerIcon2:"url(../assets/icons/header-icon2.png)",
+     footerIcon1:"url(../assets/icons/footer-icon1.png);",
+     footerIcon2:"url(../assets/icons/footer-icon2.png);",
+     footerIcon3:"url(../assets/icons/footer-icon3.png);",
     }
      
     },
